@@ -1,0 +1,80 @@
+/* CSS for ShowList Component */
+
+
+/* Style the heading */
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Style the list */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+
+/* Style the list item */
+
+li {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+
+/* Style the link */
+
+a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Style the button */
+
+button {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+
+/* Style the summary text */
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+
+/* Media Query for smaller screens */
+
+@media only screen and (max-width: 768px) {
+    ul {
+        grid-template-columns: 1fr;
+    }
+}
+
+.showlistdiv {
+    border: 1px solid red;
+    padding: 30px;
+}
